@@ -18,7 +18,11 @@
 /* ================================================================== */
 
 /* directory to load fonts from in addition to the system directories */
-Map { font-directory: url(./fonts); }
+/* directory to load fonts from in addition to the system directories */
+Map { 
+  font-directory: url(./fonts);
+  buffer-size: 512;  
+}
 
 /* set up font sets for various weights and styles */
 @sans_lt:           "Open Sans Regular","DejaVu Sans Book","unifont Medium";
@@ -37,8 +41,8 @@ Map { font-directory: url(./fonts); }
 /* LANDUSE & LANDCOVER COLORS
 /* ================================================================== */
 
-@land:              #E5DFD7;
-@water:             #C4DFF6;
+@land:              #E4DCD3;
+@water:             #74AEDF;
 @grass:             #E6F2C1;
 @beach:             #FFEEC7;
 @park:              #DAF2C1;
