@@ -47,7 +47,7 @@ Map {
 @beach:             #FFEEC7;
 @park:              #DAF2C1;
 @cemetery:          #D6DED2;
-@wooded:            #C3D9AD;
+@wooded:            #C8D596;
 @agriculture:       #F2E8B6;
 
 @building:          #E4E0E0;
